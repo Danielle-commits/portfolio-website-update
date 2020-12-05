@@ -95,11 +95,10 @@ a:active { /* selected link */
   text-align: center; /* Centers text */
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 header {
   background-color: #f59386;
-  text-align: center;
   padding: 10px 0;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   position: relative;
@@ -107,10 +106,9 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -119,10 +117,6 @@ nav > ul > li > a {
 }
 nav > ul > li > a:visited {
   color: #07084f;
-}
-nav {
-  display: inline-block;
-  width: 100%;
 }
 #hero {
   background-color: #f59386;
@@ -153,13 +147,44 @@ main {
 #contact {
   text-align: center;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+main {
+  padding-top: 56px;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
      text-align: unset;
-     padding: 20px 0 13px;
+     padding: 10px 0 4px;
    }
 
    nav {
@@ -184,6 +209,21 @@ Medium devices (640px and larger)
   content: "";
   clear: both;
   display: table;
+}
+.logo {
+  max-width: 150px;
+}
+nav > ul > li {
+  display: inline-block;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
 }
 }
 /* ==============================

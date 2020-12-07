@@ -76,7 +76,6 @@ a:active { /* selected link */
   background-color: #8BC9B2;
   color: #ffffff;
   text-transform: uppercase;
-  border: 2px solid #8BC9B2;
 }
 .button.contact:hover {
   background-color: #F59386;

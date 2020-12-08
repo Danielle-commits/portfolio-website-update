@@ -12,9 +12,6 @@ Secondary color navy blue 07084F 7,8,79
 body {
   background-color: #F9F3D7;
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
 

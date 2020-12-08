@@ -40,7 +40,6 @@ img {
   width: 100%;
 }
 a {
-  text-decoration: none; /* No underlining */
 }
 a:hover,
 a:focus {

@@ -92,13 +92,11 @@ header {
   margin: 0;
 }
 
-nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
 }
-nav > ul > li > a:visited {
   color: #07084f;
 }
 #hero {
@@ -114,7 +112,6 @@ nav > ul > li > a:visited {
 main {
   padding-top: 75px;
 }
-#social-contact > ul {
   list-style-type: none;
   text-align: center;
 }
@@ -145,19 +142,15 @@ main {
 main {
   padding-top: 56px;
 }
-.navtoggle.responsive li  {
   display: block;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
 }
 
-.navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
 /* ==============================
@@ -165,47 +158,6 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-     text-align: unset;
-     padding: 10px 0 4px;
-   }
-
-   nav {
-     width: auto;
-     float: right;
-     margin-top: 4px;
-   }
-   body {
-     font-size: 18px;
-   }
-   .col-md-6 {
-  width: 50%;
-}
-.col-md-12 {
-  width: 100%;
-}
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.logo {
-  max-width: 150px;
-}
-nav > ul > li {
-  display: inline-block;
-}
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-nav > ul {
-  margin: 1em 0;
 }
 }
 /* ==============================
